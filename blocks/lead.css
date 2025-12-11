@@ -1,0 +1,29 @@
+.lead {
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  padding-top: 90px; /* Em vez de top: 194px */
+  gap: 32px; /* Espaço entre os elementos */
+}
+.lead__title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  max-width: 720px; /* Em vez de width fixo */
+  margin: 0; /* Remove margin padrão */
+}
+.lead__description {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0;
+}
+
+.lead__image {
+  max-width: 984px;
+  width: 100%; /* Responsivo */
+  height: auto; /* Mantém proporção */
+}
