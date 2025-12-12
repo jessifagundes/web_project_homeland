@@ -25,20 +25,6 @@ O site foi desenvolvido como uma página responsiva que se adapta perfeitamente 
 - **Figma**: Utilizado como referência para implementação fiel do design
 - **Git/GitHub**: Controle de versão e hospedagem
 
-## Estrutura do Projeto
+## Link da página
 
-```
-web_project_homeland/
-├── index.html
-├── pages/
-│   └── index.css
-├── blocks/
-│   ├── page/
-│   ├── header/
-│   ├── lead/
-│   ├── intro/
-│   └── footer/
-├── images/
-└── vendor/
-    └── fonts/
-```
+https://jessifagundes.github.io/web_project_homeland/
