@@ -10,11 +10,12 @@
 .intro__title {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 54px;
   text-align: left;
   max-width: 830px;
   margin: 0;
   margin-bottom: 40px;
+  max-height: 116px;
 }
 .intro__description {
   font-family: "Inter", sans-serif;
@@ -23,7 +24,7 @@
   text-align: left;
   max-width: 738px;
   margin: 0;
-  margin-bottom: 42px;
+  padding-bottom: 10px;
 }
 .intro__quote {
   font-family: "Inter", sans-serif;
@@ -31,14 +32,51 @@
   font-size: 24px;
   max-width: 732px;
   margin: 0;
-  margin-bottom: 36px;
-  align-self: flex-end;
+  margin-bottom: 32px;
+  width: 100%;
+  text-align: end;
 }
 .intro__text {
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 16px;
   text-align: left;
-  max-width: 722px;
   margin: 0;
+  line-height: 163%;
+  padding-bottom: 92px;
+  max-width: 722px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 707px;
+    height: 98px;
+  }
+  .intro__text {
+    padding-bottom: 88px;
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    height: 140px;
+  }
+  .intro__text {
+    max-width: 288px;
+    height: 442px;
+    padding-bottom: 64px;
+  }
 }

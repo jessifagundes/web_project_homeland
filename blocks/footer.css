@@ -1,2 +1,9 @@
-.footer {
+.footer__copyright {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  max-width: 166px;
+  padding-bottom: 24px;
+  text-align: center;
+  margin: 0 auto;
 }

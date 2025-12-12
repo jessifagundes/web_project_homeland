@@ -13,13 +13,13 @@
   padding-top: 34px;
 }
 @media screen and (max-width: 1024px) {
-  .header {
-    padding: 0 20px;
+  .header__logo {
+    height: 66px;
   }
 }
 @media screen and (max-width: 544px) {
-  .header {
-    flex-direction: column;
-    padding: 0 16px;
+  .header__logo {
+    width: 188px;
+    height: 52px;
   }
 }
