@@ -39,8 +39,8 @@
     line-height: 79px;
   }
   .lead__image {
-    max-width: 768;
-    max-height: 480;
+    max-width: 768px;
+    max-height: 480px;
   }
 }
 @media screen and (max-width: 544px) {
@@ -57,7 +57,7 @@
     max-height: 40px;
   }
   .lead__image {
-    max-width: 320;
-    max-height: 200;
+    max-width: 320px;
+    max-height: 200px;
   }
 }
