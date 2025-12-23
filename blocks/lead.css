@@ -29,6 +29,7 @@
   max-width: 984px;
   width: 100%;
   height: auto;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.35);
 }
 
 @media screen and (max-width: 1024px) {
