@@ -5,7 +5,8 @@
   padding-top: 90px;
   margin: 0 auto;
   padding-left: 148px;
-  padding-right: 148px;
+  max-width: 830px;
+  padding-right: 302px;
 }
 .intro__title {
   font-family: "Inter", sans-serif;
